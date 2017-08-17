@@ -1,6 +1,7 @@
 
 nvm use v7
 
+[![CircleCI](https://circleci.com/gh/gaohailang/bookstore-web.svg?style=svg)](https://circleci.com/gh/gaohailang/bookstore-web)
 
 ### 应用结构
 
