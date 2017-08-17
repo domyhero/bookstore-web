@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import request from 'superagent'
+import request from '../utils/request'
 
 import DoubanerList from '../components/DoubanerList'
 
@@ -28,7 +28,7 @@ export default {
           } else {
             this.list = body.users
           }
-          if(body.total - 100 - body.start) {
+          if((body.total - 100 - body.start) > 0) {
             this.fetch(id, body.start + body.count)
           }
         })

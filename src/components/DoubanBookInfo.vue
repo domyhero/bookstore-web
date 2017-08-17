@@ -39,8 +39,7 @@
 </template>
 
 <script>
-import request from 'superagent'
-import jsonp from 'superagent-jsonp'
+import request from '../utils/request'
 
 // Todo: 添加切换下一页等在list header 上
 // Todo: 添加edit mode，扩长和可以highlight

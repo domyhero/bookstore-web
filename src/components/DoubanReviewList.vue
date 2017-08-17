@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import request from 'superagent'
+import request from '../utils/request'
 
 export default {
   name: 'douban-review-list',

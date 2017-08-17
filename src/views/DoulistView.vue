@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import request from 'superagent'
+import request from '../utils/request'
 
 import BookList from '../components/BookList'
 import TableSide from '../components/TableSide'

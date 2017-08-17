@@ -16,8 +16,8 @@
 
 <script>
 import Vue from 'vue'
-import request from 'superagent'
-import jsonp from 'superagent-jsonp'
+
+import request from '../utils/request'
 
 Vue.component('book-search-item', {
   functional: true,

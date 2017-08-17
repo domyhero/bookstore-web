@@ -18,7 +18,8 @@
 </template>
 
 <script>
-import request from 'superagent'
+import request from '../utils/request'
+
 import Vue from 'vue'
 
 // Todo: 添加切换下一页等在list header 上
