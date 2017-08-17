@@ -66,7 +66,7 @@ https://www.codementor.io/johnnyb/how-to-write-a-web-scraper-in-nodejs-du108266t
 
 > book notes taking app
 
-[](./static/screencast1.jpg)
+![](./static/screencast1.jpg)
 
 
 ## Build Setup
